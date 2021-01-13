@@ -1,6 +1,13 @@
 package com.itbulls.learnit.aswin.operations;
+
+// change packge if necessary!
+
 import java.util.*;
-public class switching {
+
+public class Switch {
+	
+/* This program simply illustrates execution of switch case in Java 
+	Based on user input , program behaves accordingly! */	
 
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
