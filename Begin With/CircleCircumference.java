@@ -1,6 +1,12 @@
 package com.itbulls.learnit.aswin.operations;
+
+// change pakckage if necessary!
+
 import java.util.Scanner;
+
 public class CircleCircumference {
+	
+/* program accepts radius of circle as input from the user and calculates the circumference */	
     
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
