@@ -2,7 +2,7 @@ package com.itbulls.learnit.aswin.operations;
 
 //change package if necessary
 
-public class addition{
+public class Addition{
 
 /* program simply prints the sum of ttwo numbers */	
 	
