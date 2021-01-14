@@ -1,6 +1,19 @@
 package com.itbulls.learnit.aswin.operations;
+
+//change package if necessary
+
 import java.util.Scanner;
 public class EmptyRectangle {
+	
+/* prints an empty rectanlge by accepting the height and width of rectangle as input from the user 
+
+		+++++++
+		+     +
+		+     +
+		+++++++
+		
+	the given rectangle is a sample 							*/
+
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
