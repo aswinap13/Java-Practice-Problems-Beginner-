@@ -31,17 +31,17 @@ public class PatternPyramid {
 		
 		//For printing the upper incrementing pattern
 		
-		for (int i = 0; i < n ; i++) {
-			for (int j = 0; j <= i ; j++) {
-			  System.out.print("* ");
+		for (int i = 1; i < n + 1; i++) {
+			for (int j = 0; j < i; j++) {
+				System.out.print("*");
 			}
-			System.out.println();
+			System.out.println();	
 		}
 		
 		// For printing the lower reducing pattern
 		for(int p=0;p<n-1;p++) {
 			for(int q=n-1;q>p;q--) {
-				System.out.print("* ");
+				System.out.print("*");
 			}
 			System.out.println();
 		}
