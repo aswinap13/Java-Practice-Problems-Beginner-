@@ -1,6 +1,10 @@
 package com.itbulls.learnit.aswin.operations;
 
+//change package if necessary!
+
 public class Matrix {
+	
+/* program prints the given matrix */	
 
 	public static void main(String[] args) {
 		int matrix[][]= {
