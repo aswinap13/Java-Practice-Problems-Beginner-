@@ -1,10 +1,14 @@
 package com.itbulls.learnit.aswin.operations;
 
+//vhange package if necessary!
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
 public class ArrayExtension {
+	
+/* program creates a random array of sze, as input by the user, and cretes another array by extending the array! */	
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -29,7 +33,9 @@ public class ArrayExtension {
 	 */
 	public static int[] extendArray(int[] arr) {
 	    int newArrayLength=(2*arr.length);
-	    int[] extendedArray = Arrays.copyOf(arr, newArrayLength);
+		
+	    int[] extendedArray = Arrays.copyOf(arr, newArrayLength); //copying first part
+		
 	    for(int i=arr.length;i<newArrayLength;i++)
 	    {
 	    	extendedArray[i]=2*arr[i-arr.length];
