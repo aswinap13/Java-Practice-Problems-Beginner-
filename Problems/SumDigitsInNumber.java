@@ -1,5 +1,7 @@
 package com.itbulls.learnit.aswin.operations;
 
+//change packagr if necessary
+
 import java.util.Scanner;
 
 public class SumDigitsInNumber {
@@ -14,7 +16,7 @@ public class SumDigitsInNumber {
 	}
 
 	public static int sumDigitsInNumber(int number) {
-		int num=Math.abs(number); 
+		int num=Math.abs(number); // if the number is negetive!
 		int sum=0;
 		int rem=0;
 		
